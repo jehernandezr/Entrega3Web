@@ -23,6 +23,7 @@ jobs:
           git config --global user.name "Jonatan Esmits Hernandez Rubio"
       - name: deploy the app
         run: npm run predeploy
+      - name: build the app
         run: npm run deploy
         env:
             GH_TOKEN: ${{ secrets.GH_TOKEN }}
