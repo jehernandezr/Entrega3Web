@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Entrega3Web/static/css/main.0b2a5a62.chunk.css",
+    "main.js": "/Entrega3Web/static/js/main.2f6f8384.chunk.js",
+    "main.js.map": "/Entrega3Web/static/js/main.2f6f8384.chunk.js.map",
+    "runtime-main.js": "/Entrega3Web/static/js/runtime-main.e9b0a175.js",
+    "runtime-main.js.map": "/Entrega3Web/static/js/runtime-main.e9b0a175.js.map",
+    "static/css/2.35a08c95.chunk.css": "/Entrega3Web/static/css/2.35a08c95.chunk.css",
+    "static/js/2.59f326f4.chunk.js": "/Entrega3Web/static/js/2.59f326f4.chunk.js",
+    "static/js/2.59f326f4.chunk.js.map": "/Entrega3Web/static/js/2.59f326f4.chunk.js.map",
+    "index.html": "/Entrega3Web/index.html",
+    "service-worker.js": "/Entrega3Web/service-worker.js",
+    "service-worker.js.map": "/Entrega3Web/service-worker.js.map",
+    "static/css/2.35a08c95.chunk.css.map": "/Entrega3Web/static/css/2.35a08c95.chunk.css.map",
+    "static/css/main.0b2a5a62.chunk.css.map": "/Entrega3Web/static/css/main.0b2a5a62.chunk.css.map",
+    "static/js/2.59f326f4.chunk.js.LICENSE.txt": "/Entrega3Web/static/js/2.59f326f4.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/Entrega3Web/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/mbr-1076x717.jpg": "/Entrega3Web/static/media/mbr-1076x717.648fbc74.jpg",
+    "static/media/mobirise2.css": "/Entrega3Web/static/media/mobirise2.c0faeddb.ttf",
+    "static/media/styles.css": "/Entrega3Web/static/media/socicon.eedd79fe.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9b0a175.js",
+    "static/css/2.35a08c95.chunk.css",
+    "static/js/2.59f326f4.chunk.js",
+    "static/css/main.0b2a5a62.chunk.css",
+    "static/js/main.2f6f8384.chunk.js"
+  ]
+}
