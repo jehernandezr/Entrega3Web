@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,sFAAsF;AAEtF,cAAc;AAOd,cAAc;AAOd,cAAc;AAOd,mBAAmB;ADrBnB,AAAA,KAAK,CAAC;EACL,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;CACnB",
+    "sources": [
+        "MovieDetailCard.scss",
+        "../../pages/Palette.scss"
+    ],
+    "names": [],
+    "file": "MovieDetailCard.css"
+}

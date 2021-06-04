@@ -1,0 +1,135 @@
+@import "../../pages/Palette.scss";
+@import "../Style.scss";
+@import url("https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+
+body {
+  font-family: "Comfortaa";
+  background-color: $gunmetal !important;
+}
+
+.container-fluid {
+  position: absolute;
+  height: 100%;
+  color: $cultured;
+}
+
+.card-img {
+  max-height: auto;
+}
+
+.noPoster {
+  padding: 30px;
+  color: $orange-yellow-crayola;
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  word-wrap: normal;
+  margin-bottom: 0px;
+  border-radius: 5px;
+  border: 3px solid $orange-yellow-crayola;
+}
+
+#movieTitle {
+  display: block;
+  width: 100%;
+  background-color: #00000000;
+  color: $orange-yellow-crayola;
+  font-weight: bold;
+  font-size: 75px;
+  text-align: center;
+  word-wrap: normal;
+}
+
+#movieYear {
+  display: block;
+  width: 100%;
+  background-color: #00000000;
+  color: $orange-yellow-crayola;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+
+#movieSynopsisSubtitle {
+  display: block;
+  width: 100%;
+  padding: 40px;
+}
+
+#movieSynopsis {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 10px;
+}
+
+#ratingSeparator {
+  width: 100%;
+  height: max-content;
+
+  bottom: 5%;
+  display: block;
+}
+
+#movieRating {
+  color: $charcoal;
+  background-color: $orange-yellow-crayola;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  position: absolute;
+  right: 5%;
+  padding-bottom: 5px;
+  font-weight: bolder;
+
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.stars {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  
+  right: 5%;
+  padding-bottom: 5px;
+  font-weight: bolder;
+  display: block;
+  position: relative;
+
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.isFavorite,
+.notFavorite {
+  filter: drop-shadow(-6px 6px 3px #000000);
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px;
+  border-radius: 50% !important;
+  background-color: $orange-yellow-crayola;
+  border: 1px;
+}
+.isFavorite:hover,
+.notFavorite:hover {
+  transition: filter 0.3s ease-in-out;
+  filter: drop-shadow(-5px 0px 10px #000000);
+}
+
+.material-icons-round {
+  font-family: "Material Icons Round";
+  font-size: 48px;
+  text-align: center;
+}

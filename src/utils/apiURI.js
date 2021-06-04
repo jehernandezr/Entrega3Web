@@ -1,0 +1,1 @@
+export const API ="http://35.247.204.33:3001/api";
